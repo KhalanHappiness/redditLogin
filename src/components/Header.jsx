@@ -1,17 +1,14 @@
-import React from "react";
+import redditLogo from '../assets/Reddit.png';
+import './Header.css';
 
-import AppCSS from '../App.css'
-
-
-function Header(){
-
-    return(
-      
-            
-        
-    )
-
-
+function Header() {
+  return (
+    <header className="header">
+      <a href="https://www.reddit.com" target="_blank" >
+        <img src={redditLogo} className="logo" alt="reddit logo" />
+      </a>
+    </header>
+  );
 }
 
-export default Header
+export default Header;

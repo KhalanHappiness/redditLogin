@@ -37,6 +37,24 @@ header{
   font-size: 16px;
 }
 
+.main{
+
+  width: 500px; /* Fixed width rather than 75% for better control */
+  max-width: 90%; /* Responsive adjustment for small screens */
+  padding: 24px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: white;
+  border-radius: 8px;
+  
+  /* These are the properties that center the div */
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
 
 .logo {
   height: 5em;
