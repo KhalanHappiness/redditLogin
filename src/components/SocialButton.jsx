@@ -1,4 +1,4 @@
-import './SocialButton.css';
+import '../App.css';
 
 function SocialButton({ logo, logoAlt, text, onClick }) {
   return (

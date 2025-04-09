@@ -1,92 +1,170 @@
-#root {
-  margin: 0 auto;
-  padding: 1rem;
-  text-align: left;
-  
+/* App.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header{
-  background: whitesmoke;
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #f6f7f8;
 }
-.social-inputs {
+
+.app-container {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  max-width: 400px;
-  margin: auto;
+  min-height: 100vh;
 }
-.social-input {
+
+.container {
   display: flex;
+  justify-content: center;
   align-items: center;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 8px 12px;
-  background: white;
-}
-
-.social-logo {
-  height: 24px;
-  width: 24px;
-  margin-right: 12px;
-}
-
-.social-input input {
-  border: none;
-  outline: none;
   flex: 1;
-  font-size: 16px;
+  padding: 20px;
 }
 
-.main{
-
-  width: 500px; /* Fixed width rather than 75% for better control */
-  max-width: 90%; /* Responsive adjustment for small screens */
-  padding: 24px;
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background: white;
-  border-radius: 8px;
-  
-  /* These are the properties that center the div */
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
+/* Header.css */
+.header {
+  background-color: white;
+  padding-left: 20px;
+  border-bottom: 1px solid #edeff1;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
-
 
 .logo {
-  height: 5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  height: 5rem;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* LoginForm.css */
+.login-container {
+  width: 500px;
+  max-width: 90%;
+  padding: 50px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-.card {
-  padding: 2em;
+.form-title {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
 }
 
-.read-the-docs {
-  color: #888;
+.form-description {
+  font-size: 12px;
+  color: #1c1c1c;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.forgot-password {
+  text-align: left;
+  font-size: 12px;
+}
+
+.signup-prompt {
+  font-size: 12px;
+  text-align: left;
+}
+
+/* SocialButton.css */
+.social-button {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dae0e6;
+  border-radius: 50px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.social-button:hover {
+  background-color: #f8f9fa;
+}
+
+
+.social-logo {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  align-items: left;
+  justify-content: left;
+}
+
+/* InputField.css */
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #edeff1;
+  border-radius: 10px;
+  background-color: #f6f7f8;
+  font-size: 14px;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #0079d3;
+}
+
+/* LinkText.css */
+.link-text {
+  color: #0079d3;
+  text-decoration: none;
+}
+
+.link-text:hover {
+  text-decoration: underline;
+}
+
+/* SubmitButton.css */
+.submit-button {
+  width: 100%;
+  margin-top: 5rem;
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.submit-button.disabled {
+  background-color: #f6f7f8;
+  color: #a8aaab;
+  cursor: not-allowed;
+}
+
+.submit-button.active {
+  background-color: #0079d3;
+  color: white;
+  cursor: pointer;
+}
+
+/* Divider.css */
+.divider {
+  display: flex;
+  align-items: center;
+  color: #878a8c;
+  font-size: 12px;
+  margin: 8px 0;
+}
+
+.divider-line {
+  flex: 1;
+  height: 1px;
+  background-color: #edeff1;
+}
+
+.divider-text {
+  padding: 0 10px;
 }

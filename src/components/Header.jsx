@@ -1,5 +1,5 @@
 import redditLogo from '../assets/Reddit.png';
-import './Header.css';
+import '../App.css';
 
 function Header() {
   return (

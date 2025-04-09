@@ -1,4 +1,4 @@
-import './LinkText.css';
+import '../App.css';
 
 function LinkText({ href, children }) {
   return (

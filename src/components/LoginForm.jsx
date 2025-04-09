@@ -6,7 +6,7 @@ import SubmitButton from './SubmitButton';
 import Divider from './Divider';
 import googleLogo from '../assets/google.svg';
 import appleLogo from '../assets/apple.png';
-import './LoginForm.css';
+import '../App.css';
 
 function LoginForm() {
   const [formData, setFormData] = useState({

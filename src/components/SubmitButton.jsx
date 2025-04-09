@@ -1,4 +1,4 @@
-import './SubmitButton.css';
+import '../App.css';
 
 function SubmitButton({ text, disabled }) {
   return (

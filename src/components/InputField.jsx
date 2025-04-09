@@ -1,4 +1,4 @@
-import './InputField.css';
+import "../App.css"
 
 function InputField({ type, name, placeholder, value, onChange, required }) {
   return (
