@@ -21,10 +21,10 @@ body {
   justify-content: center;
   align-items: center;
   flex: 1;
-  padding: 20px;
+  padding-bottom: 15px;
 }
 
-/* Header.css */
+/* Header*/
 .header {
   background-color: white;
   padding-left: 20px;
@@ -33,10 +33,10 @@ body {
 }
 
 .logo {
-  height: 5rem;
+  height: 4rem;
 }
 
-/* LoginForm.css */
+/* LoginForm */
 .login-container {
   width: 500px;
   max-width: 90%;
@@ -75,7 +75,7 @@ body {
   text-align: left;
 }
 
-/* SocialButton.css */
+/* SocialButton*/
 .social-button {
   display: flex;
   text-align: center;
@@ -102,12 +102,12 @@ body {
   justify-content: left;
 }
 
-/* InputField.css */
+/* InputField*/
 .input-field {
   width: 100%;
-  padding: 12px;
+  padding: 20px;
   border: 1px solid #edeff1;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: #f6f7f8;
   font-size: 14px;
 }
@@ -117,7 +117,7 @@ body {
   border-color: #0079d3;
 }
 
-/* LinkText.css */
+/* LinkText*/
 .link-text {
   color: #0079d3;
   text-decoration: none;
@@ -127,10 +127,10 @@ body {
   text-decoration: underline;
 }
 
-/* SubmitButton.css */
+/* SubmitButton */
 .submit-button {
   width: 100%;
-  margin-top: 5rem;
+  margin-top: 4rem;
   padding: 10px;
   border: none;
   border-radius: 50px;
@@ -150,7 +150,7 @@ body {
   cursor: pointer;
 }
 
-/* Divider.css */
+/* Divider */
 .divider {
   display: flex;
   align-items: center;

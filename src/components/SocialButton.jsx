@@ -8,7 +8,7 @@ function SocialButton({ logo, logoAlt, text, onClick }) {
       onClick={onClick}
     >
       <img src={logo} alt={logoAlt} className="social-logo" />
-      <span>{text}</span>
+      <span className='socialText'>{text}</span>
     </button>
   );
 }
